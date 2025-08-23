@@ -16,8 +16,7 @@ SENDER_PASSWORD = "mkxb cpmb nzio sddl"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 COMMITTEE_EMAILS = [
-    "gjsabuhurira@gmail.com",
-    "rajubairajesh5@gmail.com"
+    "gjsabuhurira@gmail.com"
 ]
 # mkxb cpmb nzio sddl
 app = FastAPI(
