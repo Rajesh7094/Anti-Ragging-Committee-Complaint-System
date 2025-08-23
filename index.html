@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Ragging Reporting System</title>
+    <style>
+        .main-header {
+            text-align: center;
+            background: linear-gradient(90deg, #1f4e79, #2d5aa0);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+        .committee-card {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 4px solid #007bff;
+            margin-bottom: 1rem;
+        }
+        .complaint-section {
+            background: #fff3cd;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 1px solid #ffc107;
+            margin-top: 2rem;
+        }
+        .contact-info {
+            font-size: 0.9em;
+            color: #555;
+        }
+        /* Style for the disabled button */
+        button:disabled {
+            cursor: not-allowed;
+            background-color: #ccc;
+        }
+        /* Style for the status messages */
+        #status_message {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-header">
+        <img src="./logo.jpg" alt="College Logo" style="margin-bottom: 1rem; width: 150px;">
+        <h1>Springfield University College</h1>
+        <h2>🛡️ Anti-Ragging Reporting System</h2>
+        <p>A Safe Platform for Reporting Incidents</p>
+    </div>
+
+    <h2>👥 Anti-Ragging Committee Members</h2>
+    <p>Our dedicated committee is here to ensure a safe and secure environment for all students.</p>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="width: 48%;">
+            <div class="committee-card">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <img src="https://via.placeholder.com/150x150/4CAF50/white?text=Principal" alt="Dr. rajesh k"
+                         style="width: 80px; height: 80px; border-radius: 50%; margin-right: 1rem;">
+                    <div>
+                        <h4 style="margin: 0; color: #1f4e79;">Dr. rajesh k</h4>
+                        <p style="margin: 0; color: #666; font-weight: bold;">Principal & Committee Chairman</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9876543210</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> principal@college.edu</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 48%;">
+            <div class="committee-card">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <img src="https://via.placeholder.com/150x150/2196F3/white?text=Vice+Principal" alt="Prof. Sarah Johnson"
+                         style="width: 80px; height: 80px; border-radius: 50%; margin-right: 1rem;">
+                    <div>
+                        <h4 style="margin: 0; color: #1f4e79;">Prof. Sarah Johnson</h4>
+                        <p style="margin: 0; color: #666; font-weight: bold;">Vice Principal</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9876543211</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> viceprincipal@college.edu</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 48%;">
+            <div class="committee-card">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <img src="https://via.placeholder.com/150x150/FF9800/white?text=Dean" alt="Dr. Michael Brown"
+                         style="width: 80px; height: 80px; border-radius: 50%; margin-right: 1rem;">
+                    <div>
+                        <h4 style="margin: 0; color: #1f4e79;">Dr. Michael Brown</h4>
+                        <p style="margin: 0; color: #666; font-weight: bold;">Dean of Students</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9876543212</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> dean@college.edu</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 48%;">
+            <div class="committee-card">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <img src="https://via.placeholder.com/150x150/9C27B0/white?text=Counselor" alt="Ms. Emily Davis"
+                         style="width: 80px; height: 80px; border-radius: 50%; margin-right: 1rem;">
+                    <div>
+                        <h4 style="margin: 0; color: #1f4e79;">Ms. Emily Davis</h4>
+                        <p style="margin: 0; color: #666; font-weight: bold;">Student Counselor</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9876543213</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> counselor@college.edu</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 48%;">
+            <div class="committee-card">
+                <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                    <img src="https://via.placeholder.com/150x150/9C27B0/white?text=Counselor" alt="Ms. Emily Davis"
+                         style="width: 80px; height: 80px; border-radius: 50%; margin-right: 1rem;">
+                    <div>
+                        <h4 style="margin: 0; color: #1f4e79;">Ms. Emily Davis</h4>
+                        <p style="margin: 0; color: #666; font-weight: bold;">Student Counselor</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9876543213</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> counselor@college.edu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="complaint-section">
+        <h3 style="color: #856404; margin-top: 0;">📝 Submit Your Complaint</h3>
+        <p style="color: #856404;">
+            If you are facing any form of ragging or abuse, please report it immediately.
+            Your register number will be used for identification, and appropriate action will be taken.
+            <br><strong>Note:</strong> Both register number and complaint details are mandatory fields.
+        </p>
+    </div>
+
+    <h3>Student Information & Complaint Details</h3>
+    <form id="complaint_form">
+        <label for="register_number">Student Register Number *</label><br>
+        <input type="text" id="register_number" name="register_number" placeholder="Enter your register number (e.g., 730222243020)" required><br><br>
+
+        <label for="complaint_details">Complaint Details *</label><br>
+        <textarea id="complaint_details" name="complaint_text" rows="10" cols="50" placeholder="Describe what happened, when it occurred, who was involved, and any other relevant details..." required></textarea><br><br>
+
+        <button type="submit" id="submit_button">🚨 Raise Complaint</button>
+    </form>
+
+    <div id="status_message"></div>
+
+    <hr>
+
+    <div style="text-align: center; color: #666; padding: 1rem;">
+        <p><strong>Emergency Helpline:</strong> +91-9876543210 | <strong>Email:</strong> antiragging@college.edu</p>
+        <p>Available 24/7 for urgent complaints</p>
+        <small>This system ensures confidentiality and prompt action against ragging incidents.</small>
+    </div>
+<script>
+    // Get the form, button, and status message container
+    const form = document.getElementById('complaint_form');
+    const submitButton = document.getElementById('submit_button');
+    const statusMessage = document.getElementById('status_message');
+
+    form.addEventListener('submit', async (event) => {
+        // Prevent the default form submission (page reload)
+        event.preventDefault();
+
+        // 1. Disable the button and change its text
+        submitButton.disabled = true;
+        submitButton.textContent = 'Submitting...';
+        statusMessage.textContent = ''; // Clear previous messages
+
+        // Get the form data
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch('http://localhost:8000/submit_complaint', {
+                method: 'POST',
+                body: formData
+            });
+
+            // Check if the request was successful (status 2xx)
+            if (response.ok) {
+                const data = await response.json();
+
+                // 2. Update button text and class for success
+                submitButton.textContent = 'Request Submitted';
+                statusMessage.textContent = `✅ ${data.message}`;
+                statusMessage.classList.add('success');
+                statusMessage.classList.remove('error');
+
+                // Optionally, clear the form after a successful submission
+                form.reset();
+            } else {
+                // 3. Update button text and class for error
+                const errorData = await response.json();
+                submitButton.textContent = '🚨 Raise Complaint'; // Revert button text
+                submitButton.disabled = false; // Re-enable button
+                statusMessage.textContent = `❌ An error occurred: ${errorData.detail}`;
+                statusMessage.classList.add('error');
+                statusMessage.classList.remove('success');
+            }
+        } catch (error) {
+            // 4. Handle network or other unexpected errors
+            submitButton.textContent = '🚨 Raise Complaint'; // Revert button text
+            submitButton.disabled = false; // Re-enable button
+            statusMessage.textContent = '❌ An unexpected error occurred. Please check your network and try again.';
+            statusMessage.classList.add('error');
+            statusMessage.classList.remove('success');
+            console.error('Submission failed:', error);
+        }
+    });
+</script>
+</body>
+</html>
