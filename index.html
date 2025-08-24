@@ -62,7 +62,7 @@
 
     <h2>👥 Anti-Ragging Committee Members</h2>
     <p>Our dedicated committee is here to ensure a safe and secure environment for all students.</p>
-    <p>A promise that no voice will go unheard, no issue will be left alone with their struggles.</p>
+    <p>A promise that no voice will go unheard, no issue will be left alone with their struggles .</p>
 
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
         <div style="width: 48%;">
@@ -76,8 +76,8 @@
                     </div>
                 </div>
                 <div class="contact-info">
-                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9677794947</p>
-                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> principal@alameen.ac.in</p>
+                    <p style="margin: 0.2rem 0;"><strong>📞 Phone:</strong> +91-9000000000</p>
+                    <p style="margin: 0.2rem 0;"><strong>📧 Email:</strong> xxxxxxxx.ac.in</p>
                 </div>
             </div>
         </div>
@@ -212,7 +212,7 @@
         const formData = new FormData(form);
 
         try {
-            const response = await fetch('https://anti-ragging-committee-complaint-system.onrender.com/submit_complaint', {
+            const response = await fetch('http://localhost:8000/submit_complaint', {
                 method: 'POST',
                 body: formData
             });
