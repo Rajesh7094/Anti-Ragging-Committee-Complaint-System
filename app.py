@@ -89,8 +89,8 @@ Please take immediate action as required.
 @app.post("/submit_complaint", status_code=200)
 async def submit_complaint(
         background_tasks: BackgroundTasks,
-        register_number: str = Form(..., min_length=10),
-        complaint_text: str = Form(..., min_length=10),
+        register_number: str = Form(..., min_length=0),
+        complaint_text: str = Form(..., min_length=0),
 ):
     """
     Endpoint to receive and process a new anti-ragging complaint.
