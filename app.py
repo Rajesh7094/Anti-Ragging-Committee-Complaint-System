@@ -12,7 +12,7 @@ from typing import List
 # CONFIGURATION SECTION
 # ========================
 SENDER_EMAIL = "gjsabuhurira@gmail.com"
-SENDER_PASSWORD = "mnot vqla mhgc zsxy"
+SENDER_PASSWORD = "mnot vqla mhgc zsxg"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 COMMITTEE_EMAILS = [
