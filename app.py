@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 # ========================
 # CONFIGURATION SECTION
 # ========================
-SENDER_EMAIL = "gjsabuhurira@gmail.com"
-SENDER_PASSWORD = "mnot vqla mhgc zsxg"  # Make sure this is your app password, not regular password
+SENDER_EMAIL = "rajesherode2004@gmail.com"
+SENDER_PASSWORD = "mkxb cpmb nzio sddl"  # Make sure this is your app password, not regular password
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 COMMITTEE_EMAILS = [
